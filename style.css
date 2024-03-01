@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+style {
+    font-family: sans-serif, helvetica, arial;
+}
+
+#oimedala {
+
+ background-image: linear-gradient(to right, #FFF800, #FF9B00);
+ box-shadow: 1px 1px 1px 1px #D2D8E4;
+ color: rgb(255, 255, 255);
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+ box-shadow: 1px 1px 3px  black;
+ margin-bottom:  10px;
+}
+#menunome {
+    text-align: center;
+    font-family: sans-serif;
+   font-weight: 100;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: #6600FF;
+ margin-right: 10px;
+    font-weight: lighter;
+    ;
+}
+body {
+   margin: 0px; 
+}
+.center {
+    text-align: center;
+}
+
+
+#capangas {
+    text-align: center;
+}
+main > p, h1 {
+    text-align: center;
+}
+main {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+#historia {
+    text-align: center;
+    text-align: justify;
+}
+.qw {
+    background-color: white;
+    margin: 10px;
+}
+#oimeda {
+    text-align: right;
+}
+body {
+    background-image: linear-gradient(to right, #A7E024, #E0C324) 
+}
