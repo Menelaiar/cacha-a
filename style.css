@@ -20,6 +20,9 @@ style {
     font-family: sans-serif;
    font-weight: 100;
     font-weight: bolder;
+    animation-name: oi;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 a{
     text-decoration: none;
@@ -35,9 +38,27 @@ body {
     text-align: center;
 }
 
+@keyframes oi {
+    10% {color: white;}
+    20% {color: #6600FF;}
+    30% {color: #E0C324;}
+    40% {color: #11dbe2;}
+    50% {color: #FFF800;}
+    60% {color: #FF9B00;}
+    70% {color: red;}
+    100% {color: white;}
+
+}
+
 
 #capangas {
-    text-align: center;
+    text-align: center
+}
+nav > a:hover {
+ background-color: #A7E024;
+ border-radius: 10px;
+ padding: 4px;
+    transition-duration: 2s;
 }
 main > p, h1 {
     text-align: center;
@@ -50,6 +71,7 @@ main {
     padding: 10px;
    min-width: 300px;
    max-width: 1000px;
+
 }
 #historia {
     text-align: center;
@@ -64,4 +86,23 @@ main {
 }
 body {
     background-image: linear-gradient(to right, #A7E024, #E0C324) 
+}
+
+
+#meda {
+    margin: auto;
+    display: block;
+    padding-bottom: 16px;
+}
+#alaca {
+    text-indent: 10px;
+}
+a:hover {
+    background-color: #A7E024;
+transition: 2s;
+padding: 2px;
+border-radius: 10px;
+}
+#abaixar {
+    transform: translateY(40px);
 }
