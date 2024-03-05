@@ -23,6 +23,8 @@ style {
     animation-name: oi;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    min-width: 113px;
+  max-width: 100000px;   
 }
 a{
     text-decoration: none;
@@ -106,7 +108,12 @@ border-radius: 10px;
 #abaixar {
     transform: translateY(40px);
 }
-p, h1, h2, a {
-    max-width: 1000px;
-    min-width: 300px;
+
+
+#max {
+    width: 500;
+}
+#meda1234 {
+    transform: translateY();
+
 }
